@@ -74,8 +74,8 @@ contract USDZ is BEP20Token {
     _totalSupply = 1 * 10 ** 6;
     _balances[msg.sender] = _totalSupply;
 
-    _wallet.holders   = 0xD73818D26d12dDa5eB449F419bF565700e0B5e01;
-    _wallet.operation = 0x72D226c98538815b5Eaf14B79D98F12C5051AF5d;
+    _wallet.holders   = 0xaE83daD938B0ebeced560C9c929921C8Eb2A2A3E;
+    _wallet.operation = 0x8cE3384202ba5B3179BC0231BC61E464Fc0A5E42;
 
     _feeSplit.holders   = 50;
     _feeSplit.operation = 50;
