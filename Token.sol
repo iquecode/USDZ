@@ -69,7 +69,7 @@ contract USDZ is BEP20Token {
   
   constructor() {
     _name = "USDZ";
-    _symbol = "UZDZ";
+    _symbol = "USDZ";
     _decimals = 6;
     _totalSupply = 1 * 10 ** 6;
     _balances[msg.sender] = _totalSupply;
